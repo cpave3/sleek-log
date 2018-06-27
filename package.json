@@ -6,7 +6,5 @@
   "repository": "https://github.com/cpave3/sleek-log.git",
   "author": "Cameron Pavey <cpave3@gmail.com>",
   "license": "GPL-3.0",
-  "dependencies": {
-    "prettyjson": "^1.2.1"
-  }
+  "dependencies": {}
 }
