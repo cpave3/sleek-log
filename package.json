@@ -1,10 +1,21 @@
 {
   "name": "sleek-log",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "A simple, streamlined npm logging solution",
   "main": "index.js",
   "repository": "https://github.com/cpave3/sleek-log.git",
   "author": "Cameron Pavey <cpave3@gmail.com>",
   "license": "GPL-3.0",
   "dependencies": {}
+=======
+  "description": "A tool for beautiful, easy, and minimal nodejs logging",
+  "main": "index.js",
+  "repository": "https://cpave3@github.com/cpave3/sleek-log",
+  "author": "Cameron Pavey <cpave3@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "prettyjson": "^1.2.1"
+  }
+>>>>>>> c081b002853799f68f9aa3a00dada755b2d09c15
 }
