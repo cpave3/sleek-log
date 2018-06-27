@@ -1,6 +1,6 @@
 {
   "name": "sleek-log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple, streamlined npm logging solution",
   "main": "index.js",
   "repository": "https://github.com/cpave3/sleek-log.git",
