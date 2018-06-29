@@ -15,5 +15,15 @@
   },
   "scripts": {
     "test": "./node_modules/.bin/nyc ./node_modules/.bin/mocha ./tests/*.test.js"
-  }
+  },
+  "keywords": [
+    "debugging",
+    "debugging-tool",
+    "integration",
+    "log",
+    "log-rotation",
+    "logging",
+    "rotation",
+    "tool"
+  ]
 }
