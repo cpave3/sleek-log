@@ -1,5 +1,6 @@
 # Sleek Log
-[![Build Status](https://travis-ci.org/cpave3/sleek-log.svg?branch=master)](https://travis-ci.org/cpave3/sleek-log)
+[![Build Status](https://travis-ci.org/cpave3/sleek-log.svg?branch=master)](https://travis-ci.org/cpave3/sleek-log) 
+[![npm](https://img.shields.io/npm/dw/sleek-log.svg)](https://www.npmjs.com/package/sleek-log)
 
 Sleek Log is a minimalist, 0 dependency logging solution for node applications. The primary purpose of the package
 is for ease of diagnostics in a meaningful way. Sleek allows you to output data to your terminal with helpful color coding, as well as more complex data structures such as JSON and arrays.
