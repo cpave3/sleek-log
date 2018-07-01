@@ -59,11 +59,20 @@ describe('helpers.initialiseLog', () => {
         mockfs({
             'stagingDir': {}
         });
-        const targetFile = ['this isn\'t valid'];
         expect(helpers.initialiseLog()).to.equal(false);
         mockfs.restore();
     });
     
+    it('should return true when pointed to an existing log file', () => {
+        mockfs({
+            'test.log': 'test content'
+        });
+        const targetFile = './test.log';
+        expect(fs.existsSync(targetFile)).to.equal(true);
+        expect(helpers.initialiseLog(targetFile)).to.equal(true);
+        expect(fs.existsSync(targetFile)).to.equal(true);
+        mockfs.restore();
+    });
 
 });
 
