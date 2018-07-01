@@ -56,7 +56,8 @@ log.registerCallback('danger', (logData) => {
 
 To write data to your logs (depending on your config), once your logger has been created, you can write data to the following log levels:
 
-  - debug/json
+  - debug
+  - json (never written to the log file, but functionally equivalent to `debug` otherwise)
   - info
   - success
   - warning
