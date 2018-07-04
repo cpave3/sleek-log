@@ -76,3 +76,17 @@ describe('helpers.initialiseLog', () => {
 
 });
 
+describe('helpers.extractArguments', () => {
+    it('should give an empty array for no args', () => {
+        const ex = helpers.extractArguments;
+        expect(ex([])).to.be.an('array');
+        expect(ex([])).to.be.empty;
+    });
+
+    it('should give a matching array for args', () => {
+        const ex = helpers.extractArguments;
+        expect(ex([1,2,3])).to.be.an('array');
+        expect(ex([1,2,3])).to.not.be.empty;
+        expect(ex([1,2,3])).to.be.lengthOf(3);
+    });
+});
